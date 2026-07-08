@@ -127,7 +127,7 @@ h1 {
     margin: 0 auto;
 }
 
-.section1 {
+.hero-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 24px 40px;
@@ -271,7 +271,7 @@ h2 {
     fill: #070B17;
 }
 
-.section1 img {
+.hero-section img {
     border-radius: 20px;
     height: auto;
 }
