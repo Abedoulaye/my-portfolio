@@ -3,6 +3,7 @@ import { Hero } from "../components/Hero.tsx";
 import Skills from "../components/skills.tsx";
 import About from "../components/about.tsx";
 import Projects from "../components/projects.tsx";
+import resume from "../public/resume.pdf";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
             <a href="#contacts">Contact</a>
-            <a href="../public/resume.pdf" download className="btn" id="resume">
+            <a href={resume} download className="btn" id="resume">
               Resume
               <svg
                 xmlns="http://www.w3.org/2000/svg"
