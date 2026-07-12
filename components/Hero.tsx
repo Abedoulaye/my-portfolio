@@ -338,7 +338,7 @@ export function Hero() {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/abedoulaye-dia-550bb1380/"
+            href="https://www.linkedin.com/in/abedoulaye/"
             target="_blank"
             rel="noreferrer"
             className="logo"
