@@ -409,7 +409,6 @@ h2 {
 
 #pfp {
   max-width: 200px;
-  border-radius: 50%;
   display: block;
   margin: 0 auto;
 }
@@ -744,4 +743,346 @@ footer {
   margin-top: 60px;
   border-top: 1px solid rgba(255, 255, 255, 0.06);
   font-size: 0.85rem;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .topnav {
+    grid-template-columns: 1fr auto;
+    grid-column: 1;
+    padding: 12px 20px;
+  }
+
+  .topnav h1 {
+    margin-left: 0;
+  }
+
+  .navbar {
+    gap: 20px;
+    font-size: 0.85rem;
+  }
+
+  #resume {
+    margin-left: 12px;
+  }
+
+  .hero-section {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding: 40px 24px;
+    text-align: center;
+  }
+
+  .hero-section img {
+    max-width: 400px;
+    margin: 0 auto;
+    order: -1;
+  }
+
+  .first-section {
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .intro-text {
+    max-width: 500px;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .marquee-container {
+    width: 90vw;
+  }
+
+  .about-section {
+    grid-template-columns: 1fr 2fr;
+    padding: 24px 20px;
+  }
+
+  .details {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .detail-item {
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .personal-picture::after,
+  .about::after {
+    display: none;
+  }
+
+  .projects-section {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .contact-section {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    padding: 32px 24px;
+  }
+
+  .mini-container:last-child {
+    justify-content: center;
+    grid-column: 1 / -1;
+  }
+
+  .mini-container img {
+    max-width: 140px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 80px;
+  }
+
+  .topnav {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 12px 16px;
+  }
+
+  .topnav h1 {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .navbar {
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+  }
+
+  #resume {
+    margin-left: 0;
+  }
+
+  .hero-section {
+    padding: 24px 16px;
+  }
+
+  .hero-section img {
+    max-width: 280px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .intro-text {
+    font-size: 0.95rem;
+    max-width: 100%;
+  }
+
+  .wave {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  #work,
+  #contact {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+  }
+
+  .social-links {
+    gap: 12px;
+  }
+
+  .marquee-container {
+    width: 95vw;
+    padding: 1.5rem 0;
+  }
+
+  .marquee-item {
+    padding: 0 16px;
+  }
+
+  .marquee-item svg {
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    min-height: 36px;
+  }
+
+  .marquee-track {
+    gap: 32px;
+  }
+
+  .about-section {
+    grid-template-columns: 1fr;
+    padding: 20px 16px;
+    text-align: center;
+  }
+
+  .personal-picture {
+    padding-right: 0;
+  }
+
+  #pfp {
+    max-width: 160px;
+  }
+
+  .about {
+    padding-right: 0;
+  }
+
+  .about-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .details {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .detail-item {
+    justify-content: center;
+  }
+
+  .closing-tag {
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }
+
+  .projects-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px 0;
+  }
+
+  .project-card img {
+    height: 200px;
+  }
+
+  .project-card h4 {
+    font-size: 16px;
+  }
+
+  .project-card p {
+    font-size: 13px;
+  }
+
+  .tag {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .contact-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 28px 16px;
+    text-align: center;
+  }
+
+  .mini-container img {
+    max-width: 120px;
+  }
+
+  .mini-container h3 {
+    font-size: 1.2rem;
+  }
+
+  .mini-container a {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+  }
+
+  footer {
+    font-size: 0.75rem;
+    padding: 16px 0;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    gap: 10px;
+  }
+
+  .navbar a {
+    font-size: 0.75rem;
+  }
+
+  #resume {
+    padding: 4px 10px;
+    font-size: 0.75rem;
+  }
+
+  #resume svg {
+    width: 12px;
+    height: 12px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .intro-text {
+    font-size: 0.85rem;
+  }
+
+  #work,
+  #contact {
+    width: 100%;
+    justify-content: center;
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+
+  .hero-section img {
+    max-width: 220px;
+  }
+
+  .marquee-container {
+    width: 100vw;
+  }
+
+  .marquee-item svg {
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    min-height: 28px;
+  }
+
+  .marquee-label {
+    font-size: 0.65rem;
+  }
+
+  .about-tagline {
+    font-size: 1rem;
+  }
+
+  .project-card img {
+    height: 180px;
+  }
+
+  .tags {
+    flex-wrap: wrap;
+  }
+
+  .mini-container a {
+    width: 100%;
+    justify-content: center;
+  }
 }
