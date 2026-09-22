@@ -661,6 +661,16 @@ h2 {
   color: #06b6d4;
 }
 
+.tag.python {
+  color: orange;
+}
+.tag.open-ai {
+  color: #fff;
+}
+.tag.postgres {
+  color: rgb(0, 255, 0);
+}
+
 .open-in-a-new-tab-icon {
   margin-left: auto;
   cursor: pointer;

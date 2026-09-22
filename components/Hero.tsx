@@ -282,8 +282,7 @@ export function Hero() {
         <h2> Abedoulaye Dia</h2>
         <h2 className="color"> Web Developer</h2>
         <p className="intro-text">
-          I build beautiful, responsive and user-friendly web applications with
-          modern technologies
+          I build end-to-end, responsive, and scalable web applications.
         </p>
         <a
           className="btn"

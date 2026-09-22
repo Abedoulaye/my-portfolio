@@ -1,4 +1,4 @@
-import metrica from "../assets/metrica-screenshot.png";
+import diariatas_fabrics from "../assets/diariatas_fabrics.png";
 import nexus from "../assets/nexus-screenshot.png";
 import coinsight from "../assets/coinsight-screenshot.png";
 
@@ -37,20 +37,21 @@ export default function Projects() {
 
       <section className="projects-section" id="projects">
         <div className="project-card">
-          <img src={metrica} alt="Metrica Dashboard projects" />
-          <h4>Metrica</h4>
+          <img src={diariatas_fabrics} alt="Metrica Dashboard projects" />
+          <h4>Diariata's Fabrics</h4>
           <p>
-            A SaaS Multi-page analytics dashboard with mock data and interactive
-            charts, and data tables built with React, Typescript and Recharts, a
-            react library
+            A full-stack e-commerce platform for my self-employed mother who
+            sells west african clothes, customers can purchase her products
+            fully online and have them shipped, this is a project that covers
+            all the main features an e-commerce platform would have
           </p>
 
           <div className="tags">
             <div className="tag react">React</div>
-            <div className="tag typescript">TypeScript</div>
-            <div className="tag css">CSS</div>
+            <div className="tag typescript">Go</div>
+            <div className="tag postgres">PostgreSQL</div>
             <a
-              href="https://github.com/abedoulaye/metrica"
+              href="https://github.com/Abedoulaye/perle-d-afrique"
               target="_blank"
               rel="noopener noreferrer"
               className="open-in-a-new-tab-icon"
@@ -70,20 +71,18 @@ export default function Projects() {
 
         <div className="project-card">
           <img src={nexus} alt="Nexus AI project" />
-          <h4>Nexus</h4>
+          <h4>AI Agent</h4>
           <p>
-            AI chat app with multiple conversation threads, Groq API
-            integration, and localStorage persistence. Dark-themed responsive
-            UI.
+            an AI coding and debugging Agent that can write and execute code to
+            fix issues using OpenAI's function-calling API
           </p>
 
           <div className="tags">
-            <div className="tag react">React</div>
-            <div className="tag typescript">TypeScript</div>
-            <div className="tag tailwind">Tailwind CSS</div>
+            <div className="tag python">Python</div>
+            <div className="tag open-ai">OpenAI</div>
 
             <a
-              href="https://github.com/abedoulaye/nexus-ai"
+              href="https://github.com/Abedoulaye/Agent"
               target="_blank"
               rel="noopener noreferrer"
               className="open-in-a-new-tab-icon"

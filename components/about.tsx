@@ -44,11 +44,12 @@ export default function About() {
           </p>
 
           <p className="about-text">
-            I focus on the front-end with{" "}
+            When I'm on the frontend I tend to focus on{" "}
             <span className="highlight">React</span>,
-            <span className="highlight"> TypeScript</span>, and modern CSS. I'm
-            always exploring new tools that make the web faster and more
-            delightful.
+            <span className="highlight"> TypeScript</span>, In the backend I can
+            work on most desired languages although I am very comfortable with
+            Go and its net/http library. I'm always exploring new tools that
+            make the web faster and more delightful.
           </p>
 
           <p className="about-text">
