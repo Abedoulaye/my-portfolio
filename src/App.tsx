@@ -3,7 +3,7 @@ import { Hero } from "../components/Hero.tsx";
 import Skills from "../components/skills.tsx";
 import About from "../components/about.tsx";
 import Projects from "../components/projects.tsx";
-import resume from "../public/resume.pdf";
+import resume from "../public/Abedoulaye_Resume.pdf.docx.pdf";
 
 function App() {
   return (
